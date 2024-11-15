@@ -1,0 +1,36 @@
+
+.loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./login.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.login {
+    border: 1px solid rgba(255, 255, 0, 0.678);
+    transform: translateY(100px);
+    width: 400px; 
+    max-width: 100%; 
+    height: 8rem;
+    padding: 15px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+}
+
+
+@media (max-width: 600px) {
+    .login {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        font-size: 16px; 
+    }
+}
